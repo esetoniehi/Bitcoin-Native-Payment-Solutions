@@ -139,7 +139,6 @@
     (ok amount)
   )
 )
-
 ;; Create instant payment
 (define-public (create-payment (recipient principal) (amount uint) (memo (optional (string-utf8 256))))
   (let (
