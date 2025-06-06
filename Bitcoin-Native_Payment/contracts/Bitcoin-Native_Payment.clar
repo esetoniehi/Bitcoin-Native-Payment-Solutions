@@ -284,7 +284,6 @@
     (ok subscription-id)
   )
 )
-
 ;; Process recurring payment
 (define-public (process-subscription (subscription-id uint))
   (let (
