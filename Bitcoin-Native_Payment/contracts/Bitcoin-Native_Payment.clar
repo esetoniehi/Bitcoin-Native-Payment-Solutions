@@ -221,7 +221,6 @@
     (ok payment-id)
   )
 )
-
 ;; Release escrow payment
 (define-public (release-escrow (payment-id uint))
   (let (
