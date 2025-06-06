@@ -399,7 +399,7 @@
   )
     (asserts! (is-eq tx-sender CONTRACT_OWNER) ERR_UNAUTHORIZED)
     (asserts! (is-eq (get status payment) "escrowed") ERR_PAYMENT_ALREADY_COMPLETED)
-    
+  
     ;; Refund to sender
     (map-set user-balances (get sender payment)
       (merge sender-balance {
