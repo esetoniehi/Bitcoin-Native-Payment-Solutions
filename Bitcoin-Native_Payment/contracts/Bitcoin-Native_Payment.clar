@@ -172,7 +172,6 @@
     (ok payment-id)
   )
 )
-
 ;; Create escrow payment
 (define-public (create-escrow-payment 
   (recipient principal) 
